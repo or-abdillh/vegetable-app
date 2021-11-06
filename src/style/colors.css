@@ -1,0 +1,27 @@
+/*
+Create variabel to save clors
+Create class for bg color
+*/
+
+:root {
+	--primary: #FFFFFF;
+	--secondary: #F3F3F3;
+	--green: #34A853;
+	--red: #FC152D;
+}
+
+.bg-primary {
+	background: var(--primary);
+}
+
+.bg-secondary {
+	background: var(--secondary);
+}
+
+.bg-green {
+	background: var(--green);
+}
+
+.bg-red {
+	background: var(--red);
+}
