@@ -11,7 +11,7 @@
 <style scoped>
 
 	.wrapper {
-		@apply px-5 mt-16 flex justify-between items-center gap-2;
+		@apply px-5 mt-14 flex justify-between items-center gap-2;
 	}
 
 	.search {

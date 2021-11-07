@@ -1,7 +1,35 @@
-# Vue 3 + Vite
+<h3 align="center">Online Shop Farm</h3>
+<p align="center">Slicing project #03</p>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<img src="/banner.png" width="100%" alt="">
 
-## Recommended IDE Setup
+### About
+This is my projects to make UI using front end tech 
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+Where the ideas and the concept i use from any other designer UI/UX from Instagram or Dribbble
+
+### Original design
+by [Madhu Mia](https://dribbble.com/madhumia)
+
+### Languages and Tools
+- Vue Js 3
+- Tailwindcss
+- Google Font
+- FontAwesome
+- Termux
+- Vite Js
+- Acode code editor
+
+### Clone This Repo
+- <code>git clone https://github.com/or-abdillh/vegetable-app.git </code>
+- <code>cd vegetable-app</code>
+- <code>npm install</code>
+- <code>npm run dev</code>
+
+### Demo 
+- [Online Shop Farm](https://cupcake-app-one.vercel.app/)
+- [Reels Instagram](https://www.instagram.com/reel/CUQEA_qlFEU/?utm_medium=copy_link)
+
+[Oka R Abdillah ](http://github.com/or-abdillh)
+<br>
+Last edited on : 7/11/2021

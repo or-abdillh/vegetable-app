@@ -1,8 +1,10 @@
 <template>
-	<Header></Header>
-	<SearchBar></SearchBar>
-	<CardWrapper></CardWrapper>
-	<Navbar></Navbar>
+    <main class="w-full md:w-8/12 md:mx-auto lg:6/12">
+    	<Header></Header>
+    	<SearchBar></SearchBar>
+	    <CardWrapper></CardWrapper>
+    	<Navbar></Navbar>
+    </main>
 </template>
 
 <script setup>

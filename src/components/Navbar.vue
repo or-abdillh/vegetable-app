@@ -1,7 +1,7 @@
 <template>
 	<section class="fixed shadow-cstm flex justify-between bottom-0 left-0 right-0 bg-white px-3 py-2">
 		<template v-for="list in lists" :key="list">
-			<div  :class="list.name === 'Search' ? 'text-green-500' : 'text-gray-600'">
+			<div class="duration-300" @click="current = list.name" :class="current === list.name ? 'text-green-500' : 'text-gray-500'">
 				<i :class="list.icon" class="w-full text-base text-center"></i>
 				<p class="text-xxs">{{ list.name }}</p>
 			</div>
@@ -23,6 +23,8 @@
 
 <script setup>
 
+    import { ref } from 'vue'
+    
 	const lists = [
 		{
 			name: 'Home',
@@ -45,5 +47,7 @@
 			icon: 'fa fa-user'
 		}
 	]
+
+	const current = ref('Search')
 
 </script>

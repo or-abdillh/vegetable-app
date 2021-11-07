@@ -1,6 +1,6 @@
 <template>
 	<div class="card">
-		<i class="fas fa-heart absolute right-2 top-2 text-red-600"></i>
+		<i @click="btnLove" class="duration-300 far fa-heart absolute right-2 top-2 text-red-600"></i>
 		<img :src="card.image" width="100" class="mx-auto mt-3" />
 		<h1 class="text-xs font-bold">{{ card.name }}</h1>
 		<p class="text-xs text-gray-400 font-semibold">{{ card.category }}</p>
@@ -18,6 +18,17 @@
 	.card {
 		@apply rounded-xl border border-gray-200 p-2 shadow relative;
 		width: 45%;
+		animation: show .55s ease-in-out forwards;
+	}
+
+	@keyframes show {
+		from {
+			transform: translateY(100%) scale(.5);
+			opacity: .75;
+		} to {
+			transform: translateY(0) scale(1);
+			opacity: 1;
+		}
 	}
 	
 </style>
@@ -31,4 +42,13 @@
 		}
 	})
 
+    //Handler for love button
+    const btnLove = e => {
+    	const el = e.target
+    	if (el.classList.contains('far')) {
+    		el.classList.replace('far', 'fa')
+    	} else {
+    		el.classList.replace('fa', 'far')
+    	}
+    }
 </script>
