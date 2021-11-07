@@ -1,7 +1,7 @@
 <h3 align="center">Online Shop Farm</h3>
 <p align="center">Slicing project #03</p>
 
-<img src="/banner.png" width="100%" alt="">
+<img src="./src/assets/banner.png" width="100%" alt="">
 
 ### About
 This is my projects to make UI using front end tech 
@@ -14,7 +14,7 @@ by [Madhu Mia](https://dribbble.com/madhumia)
 ### Languages and Tools
 - Vue Js 3
 - Tailwindcss
-- Google Font
+- Google Font Open Sans
 - FontAwesome
 - Termux
 - Vite Js
@@ -32,4 +32,4 @@ by [Madhu Mia](https://dribbble.com/madhumia)
 
 [Oka R Abdillah ](http://github.com/or-abdillh)
 <br>
-Last edited on : 7/11/2021
+Last edited on : 7/1/2021
