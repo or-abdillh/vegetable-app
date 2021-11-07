@@ -1,6 +1,9 @@
 <template>
 	<section class="wrapper">
-		<input class="bg-secondary search" typr="search" placeholder="Input keywords here" />
+		<div class="bg-secondary search">
+			<i class="fa fa-search text-gray-400 text-xs mr-3"></i>
+			<input type="search" class="bg-secondary"  placeholder="Input keywords here" />
+		</div>
 		<i class="fas fa-sliders-h text-gray-700"></i>
 	</section>
 </template>
@@ -8,7 +11,7 @@
 <style scoped>
 
 	.wrapper {
-		@apply px-5 mt-2 flex justify-between items-center gap-2;
+		@apply px-5 mt-16 flex justify-between items-center gap-2;
 	}
 
 	.search {
