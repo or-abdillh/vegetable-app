@@ -1,3 +1,13 @@
 <template>
-	<p class="text-center tezt-gray-500">Hello World</p>
+	<Header></Header>
+	<SearchBar></SearchBar>
+	<CardWrapper></CardWrapper>
 </template>
+
+<script setup>
+   
+   import Header from './components/Header.vue'
+   import SearchBar from './components/SearchBar.vue'
+   import CardWrapper from './components/CardWrapper.vue'
+   
+</script>
