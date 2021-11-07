@@ -27,9 +27,9 @@ by [Madhu Mia](https://dribbble.com/madhumia)
 - <code>npm run dev</code>
 
 ### Demo 
-- [Online Shop Farm](https://cupcake-app-one.vercel.app/)
+- [Online Shop Farm](https://online-shop-farm.vercel.app/)
 - [Reels Instagram](https://www.instagram.com/reel/CUQEA_qlFEU/?utm_medium=copy_link)
 
 [Oka R Abdillah ](http://github.com/or-abdillh)
 <br>
-Last edited on : 7/1/2021
+Last edited on : 7/11/2021
